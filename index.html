@@ -5,6 +5,11 @@
         <title>LoSo - A clean, simple and a responsive website</title>
         
         <meta charset="utf-8">
+		
+		<meta name="description" content="Simple, clean and a responsive website built with HTML5, CSS3, JavaScript, jQuery and Bootstrap">
+		
+		<meta name="keywords" content="web, design, html5, html, css, css3, javascipt, js, jquery, bootstrap, development">
+		
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Google Fonts -->
@@ -16,6 +21,13 @@
         <link rel="icon" type="image/png" href="Images/favicon.png">
         
         <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+		
+		<!-- Animate CSS -->
+		
+		<link rel="stylesheet" type="text/css" href="CSS/animate.css">
+		
+		<!-- Styles defined by me -->
+		
         <link rel="stylesheet" type="text/css" href="CSS/style.css">
         
         <!-- FontAwesome -->
@@ -25,8 +37,11 @@
 		<!-- bxSlider CSS -->
 		
 		<link rel="stylesheet" type="text/css" href="CSS/jquery.bxslider.css">
+		
+		<!-- Responsive CSS -->
+		
+		<link rel="stylesheet" type="text/css" href="CSS/responsive.css">        
         
-        </script>
     </head>
     
     <body>
@@ -64,6 +79,7 @@
                     </div>
 
                     <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+						
                         <ul class="nav navbar-nav navbar-right">
                             
                             <li><a href="#HOME" class="nav-item">HOME</a></li>
@@ -87,269 +103,491 @@
             </nav>
             
             <div class="header-overlay header-container">
-                <div class="container">                    
+				
+                <div class="container">        
+					
                     <div class="row">
+						
                         <div class="col-md-12">
+							
                             <div class="logo text-center">
-                                <img src="Images/logo.png" alt="logo">                                                    
-                            </div>                            
-                        </div>                        
+								
+                                <img src="Images/logo.png" alt="logo"> 
+								
+                            </div> 
+							
+                        </div>  
+						
                     </div>
+					
                     <div class="row">
+						
                         <div class="col-md-8">
+							
                             <div class="header-text">
+								
                                 <!-- Title & Description -->
+								
                                 <h1>A clean and modern looking website</h1>
+								
                                 <p>Designed by Rohan Bhutani</p>
+								
                             </div>
+							
                             <div class="header-btns">
-                                <a class="btn btn-download" href="#">Download</a>
-                                <a class="btn btn-tour" href="#">Take A Tour
+								
+                                <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
+								
+                                <a class="btn btn-tour wow fadeInRight" href="#">Take A Tour
+									
                                     <i class="fa fa-angle-down"></i>
+									
                                 </a>
+								
                                 <i class="fa fa-angle-down"></i>
+								
                             </div>
+							
                         </div>
+						
                         <div class="col-md-3 col-md-offset-1">
+							
                             <div class="header-iphone">
+								
                                 <!-- Header iPhone -->
+								
                                 <img src="Images/iphone-header.png" alt="header iPhone">
+								
                             </div>
+							
                         </div>
+						
                     </div>
-                </div>            
+					
+                </div>  
+				
             </div>
+			
         </header>
         
         <!-- About Us -->
         
         <section id="ABOUT">
+			
             <div class="container">
+				
                 <div class="row">
+					
                     <div class="col-md-10 col-md-offset-1">
+						
                     <!-- About Us title and description. -->
+						
                         <div class="section-title">
+							
                             <h2>About Us</h2>
+							
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ultricies nibh, vitae sodales purus. Aenean volutpat ullamcorper cursus. Duis tristique sit amet augue ac vestibulum.</p>
+							
                         </div>
                 
                     </div>
+					
                 </div>
+				
             </div>
             
             <div class="choose-us-wrapper">
+				
                 <div class="container">
+					
                     <div class="row">
+						
                         <div class="col-md-6">
+							
                             <!-- About iPhone -->
-                            <div class="about-iphone">
-                                <img src="Images/about-iphone.png" alt="iPhone">
+							
+                            <div class="about-iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+								
+                                <img class="img-responsive" src="Images/about-iphone.png" alt="iPhone">
+								
                             </div>
+							
                         </div>
-                        <div class="col-md-6">
+						
+                        <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+							
                             <!-- Why Choose Us Title -->
+							
                             <div class="choose-us-title">
+								
                                 <h2>Why Choose Us?</h2>
+								
                                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacus dui, interdum sit amet varius.</p>
+								
                             </div>
+							
                             <!--  why choose us description -->
+							
                             <div class="choose-us-description">
+								
                                 <!-- choose us item 1 -->
-                                <div class="choose-us-item">
+								
+                                <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
+									
                                     <!-- choose us item icon -->
+									
                                     <div><i class="fa fa-bolt"></i></div>
+									
                                     <!-- choose us item title and description -->
+									
                                     <h3>QUISQUE LACUS DUI</h3>
+									
                                     <p>Lipsum Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacus dui, interdum sit amet varius a, cursus sit amet sapien. Donec eu placerat nisi.</p>
+									
                                 </div>
+								
                                 <!-- choose us item 2 -->
-                                <div class="choose-us-item">
+								
+                                <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
+									
                                     <!-- choose us item icon -->
+									
                                     <div><i class="fa fa-bullhorn"></i></div>
-                                    <!choose us item title and description -->
+									
+                                    <!--choose us item title and description -->
+									
                                     <h3>DONEC EU PLACERAT NISI</h3>
+									
                                     <p>Diso Lipsum Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque lacus dui, interdum sit amet varius a, cursus sit amet sapien. Donec eu placerat nisi.</p>
+									
                                 </div>
+								
                                 <!-- choose us item 3 -->
-                                <div class="choose-us-item">
+								
+                                <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
+									
                                     <!-- choose us item icon -->
+									
                                     <div><i class="fa fa-flag-o"></i></div>
-                                    <!choose us item title and description -->
+									
+                                    <!-- choose us item title and description -->
+									
                                     <h3>PERSPICIATIS UNDE OMNIS</h3>
+									
                                     <p>Sed ut perspiciatis Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.unde omnis iste natus error sit.</p>
+									
                                 </div>
+								
                             </div>
                             
                         </div>
                         
                     </div>
+					
                 </div>
+				
             </div>
-        </section>
+			
+        </section>		
         
         <!-- Testimonials -->
         
         <section class="testimonial">
+			
             <div class="testimonial-overlay">
+				
                 <div class="container">
+					
                     <div class="row">
-                        <div class="col-md-12">
+						
+                        <div class="col-md-12 wow bounceInDown">
+							
                             <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+								
                                 <!-- indicators -->
+								
                                 <ol class="carousel-indicators">
+									
                                     <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+									
                                     <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+									
                                     <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+									
                                 </ol>
                                 
                                 <!-- wrapper for slides -->
+								
                                 <div class="carousel-inner">
+									
                                     <!-- First testimonial -->
+									
                                     <div class="item active text-center">
+										
                                         <img src="Images/client-01.jpg" alt="testimonial" class="center-block"/>
+										
                                         <div class="testimonial-caption">
+											
                                             <h2>Daniel</h2>
+											
                                             <h4><span>Systems Engineer, Infosys Limited</span></h4>
+											
                                             <p>Sed ut perspiciatis Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.unde omnis iste natus error sit.</p>
+											
                                         </div>
+										
                                     </div>
+									
                                     <!-- Second testimonial -->
+									
                                     <div class="item text-center">
+										
                                         <img src="Images/client-02.jpg" alt="testimonial" class="center-block"/>
+										
                                         <div class="testimonial-caption">
+											
                                             <h2>Mark</h2>
+											
                                             <h4><span>Senior Systems Engineer, Infosys Limited</span></h4>
+											
                                             <p>Sed ut perspiciatis Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.unde omnis iste natus error sit.</p>
+											
                                         </div>
+										
                                     </div>
+									
                                     <!-- Third testimonial -->
+									
                                     <div class="item text-center">
+										
                                         <img src="Images/client-03.jpg" alt="testimonial" class="center-block"/>
+										
                                         <div class="testimonial-caption">
+											
                                             <h2>David</h2>
+											
                                             <h4><span>Technology Analyst, Infosys Limited</span></h4>
+											
                                             <p>Sed ut perspiciatis Cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.unde omnis iste natus error sit.</p>
+											
                                         </div>
+										
                                     </div>
                                     
                                 </div>
 
                             </div>
+							
                         </div>
+						
                     </div>
+					
                 </div>
+				
             </div>
+			
         </section>
         
         <!-- Features -->
         
         <section class="features" id="FEATURES">
+			
             <div class="container">
+				
                 <div class="row">
+					
                     <div class="col-md-10 col-md-offset-1">
-                        <div class="section-title">
+						
+                        <div class="section-title wow fadeIn" data-wow-duration="1s">
+							
                             <h2> Features </h2>
+							
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+							
                         </div>
+						
                     </div>
+					
                 </div>
+				
             </div>
+			
             <div class="features-inner-wrapper">
+				
                 <div class="container">
+					
                     <div class="row">
-                        <div class="col-md-4">
+						
+                        <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
+							
                             <!-- First left feature item -->
+							
                             <div class="left-feature-item">
+								
                                 <!-- Icon -->
+								
                                 <div class="left-feature-item-icon">
+									
                                     <i class="fa fa-desktop"></i>
+									
                                 </div>
+								
                                 <!-- feature item title and description -->
+								
                                 <h3>RETINA READY</h3>
+								
                                 <p>Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do eiusmod tempor incididunt</p>
+								
                             </div>
+							
                              <!-- Second left feature item -->
+							
                             <div class="left-feature-item">
+								
                                 <!-- Icon -->
+								
                                 <div class="left-feature-item-icon">
+									
                                     <i class="fa fa-mobile"></i>
+									
                                 </div>
+								
                                 <!-- feature item title and description -->
+								
                                 <h3>MOBILE READY</h3>
+								
                                 <p>Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do eiusmod tempor incididunt</p>
+								
                             </div>
+							
                             <!-- Third left feature item -->
+							
                             <div class="left-feature-item">
+								
                                 <!-- Icon -->
+								
                                 <div class="left-feature-item-icon">
+									
                                     <i class="fa fa-eye"></i>
+									
                                 </div>
+								
                                 <!-- feature item title and description -->
+								
                                 <h3>EASY LAYOUT</h3>
+								
                                 <p>Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do eiusmod tempor incididunt</p>
+								
                             </div>
+							
                         </div>
                         
                         <div class="col-md-4">
+							
                             <div class="feature-iphone">
-                                <img src="Images/iphone-02.png" alt="iPhone features">
+								
+                                <img class="wow bounceIn img-responsive" data-wow-duration="1s" src="Images/iphone-02.png" alt="iPhone features">
+								
                             </div>
+							
                         </div>
                         
-                        <div class="col-md-4">
+                        <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
                             
                             <!-- First right feature item -->
+							
                             <div class="right-feature-item">
+								
                                 <!-- Icon -->
+								
                                 <div class="right-feature-item-icon">
+									
                                     <i class="fa fa-certificate"></i>
+									
                                 </div>
+								
                                 <!-- feature item title and description -->
+								
                                 <h3>CERTIFIED SOLUTION</h3>
+								
                                 <p>Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do eiusmod tempor incididunt</p>
+								
                             </div>
                             
                             <!-- Second right feature item -->
+							
                             <div class="right-feature-item">
+								
                                 <!-- Icon -->
+								
                                 <div class="right-feature-item-icon">
+									
                                     <i class="fa fa-rss"></i>
+									
                                 </div>
+								
                                 <!-- feature item title and description -->
+								
                                 <h3>CONSTANT FEED</h3>
+								
                                 <p>Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do eiusmod tempor incididunt</p>
+								
                             </div>
                             
                             <!-- Third right feature item -->
+							
                             <div class="right-feature-item">
+								
                                 <!-- Icon -->
+								
                                 <div class="right-feature-item-icon">
+									
                                     <i class="fa fa-database"></i>
+									
                                 </div>
+								
                                 <!-- feature item title and description -->
+								
                                 <h3>SECURE DATA</h3>
+								
                                 <p>Lorem ipsum dolor, consectetur sed do adipisicing elit, sed do eiusmod tempor incididunt</p>
+								
                             </div>
+							
                         </div>
                         
                     </div>
+					
                 </div>
+				
             </div>
+			
         </section>        
         
         <!-- Purchase Now -->        
         
         <section class="purchase-now">
+			
             <div class="container">
-                <div class="row">
+				
+                <div class="row wow fadeInLeftBig" data-wow-duration="1s">
+					
                     <div class="col-md-9">
+						
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+						
                     </div>
+					
                     <div class="col-md-3">
+						
                         <a class="btn btn-primary btn-purchase-now" href="#">Purchase Now</a>
+						
                     </div>
+					
                 </div>
+				
             </div>
+			
         </section>        
         
         <!-- Screens -->
@@ -365,6 +603,7 @@
                         <div class="section-title">
 							
                             <h2>Screens</h2>
+							
                             <p>Mauris a mauris feugiat, luctus mauris a, sollicitudin ex. Pellentesque et tortor in risus elementum aliquet. Etiam facilisis justo urna, id feugiat magna scelerisque non.</p>
 							
                         </div>
@@ -375,7 +614,7 @@
 				
             </div>
 			
-            <div class="screen-slider">
+            <div class="screen-slider wow bounceInRight" data-wow-duration="1s">
 				
                 <div class="container">
 					
@@ -423,7 +662,7 @@
 			
             <div class="counter-overlay">
 				
-                <div class="container">
+                <div class="container wow bounceInLeft" data-wow-duration="1s">
 					
                     <div class="row text-center">
                         
@@ -500,6 +739,7 @@
                         <div class="section-title">
                         
                             <h2>Download Now</h2>
+							
                             <p>Vestibulum congue eros ac neque dignissim, vel imperdiet neque consectetur. Maecenas condimentum cursus maximus. Praesent eu diam efficitur.</p>
                             
                         </div>
@@ -514,9 +754,9 @@
             
                 <div class="row">
                 
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="1s">
                     
-                        <img src="Images/download-screen.png" alt="Download Screen">
+                        <img class="img-responsive"  src="Images/download-screen.png" alt="Download Screen">
                         
                     </div>
                 
@@ -530,7 +770,7 @@
         
         <section class="available-on">
         
-            <div class="container">
+            <div class="container wow bounceInRight" data-wow-duration="1s">
             
                 <div class="row">
                 
@@ -539,6 +779,7 @@
                         <div class="available-title">
                         
                             <h2>Available On</h2>
+							
                             <p>Vestibulum congue eros ac neque dignissim, vel imperdiet neque consectetur. Maecenas condimentum cursus maximus. Praesent eu diam efficitur.</p>
                         
                         </div>
@@ -623,7 +864,7 @@
         
         <section class="contact-us" id="CONTACT">
         
-            <div class="container">
+            <div class="container wow bounceIn">
             
                 <div class="row">
                 
@@ -642,7 +883,7 @@
                 
             </div>
             
-            <div class="contact-us-form">
+            <div class="contact-us-form wow bounceIn">
             
                 <div class="container">
                 
@@ -653,7 +894,9 @@
                             <div class="col-md-4">
                             
                                 <input type="text" class="form-control" id="name" placeholder="Name">
+								
                                 <input type="email" class="form-control" id="email" placeholder="Email">
+								
                                 <input type="text" class="form-control" id="subject" placeholder="Subject">
                             
                             </div>
@@ -661,6 +904,7 @@
                             <div class="col-md-8">
                             
                                 <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Message Text...."></textarea>
+								
                                 <button type="button" class="btn btn-default submit-btn form-submit">SEND</button>
                             
                             </div>
@@ -677,14 +921,16 @@
             
                 <div class="row">
                 
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow bounceInLeft">
                     
                         <div class="social-icons">
                         
                             <ul>
                             
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								
                                 <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
                             
                             </ul>
@@ -750,6 +996,9 @@
 		<script src="JS/jquery.counterup.min.js"></script>
 		<script src="JS/jquery.waypoints.min.js"></script>
 		
+		<!-- WOW JS Library -->
+		
+		<script src="JS/wow.min.js"></script>
 		
         <!-- Custom JS -->
         
