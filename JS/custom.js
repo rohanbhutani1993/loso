@@ -178,3 +178,13 @@ $(document).ready(function () {
 	});
 
 });
+
+/* Add animation */
+
+$(document).ready(function () {
+	
+	'use strict';
+	
+	new WOW().init();
+	
+});
